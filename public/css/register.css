@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #084a62;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 524px;
+    padding: 40px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 50px 50px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 2px solid #cccccc;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+
+input:hover {
+    border-color: rgb(117, 183, 204);
+    border-radius: 25px;
+}
+
+::placeholder {
+    color: rgb(40, 136, 165);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #084a62 ;
+    /* background: linear-gradient(90deg, 0%, #084a62 100%); */
+    color: #ffffff;
+    cursor: pointer;
+    font-size: medium;
+}
+
+#a5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically center */
+    margin: 20px;
+}
+
+#a5 > div {
+    display: flex; /* Enable flex layout */
+    align-items: center; /* Align items vertically center */
+}
+
+#a5 > div label {
+    margin-right: 10px; /* Add space between label and checkbox */
+}
+
+#a6:hover {
+    background-color:  rgb(173, 227, 243);
+}
+
+#a6 {
+    color: rgb(12, 54, 108);
+}
+
+.logo {
+    max-width: 95%;
+    padding: 20px; /* Adjusted padding for proportional height */
+    border-radius: 50px 50px 0px 0px;
+    background: linear-gradient(90deg, white 0%, white 100%);
+    color: #084a62;
+    text-align: center;
+    height: 40px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
